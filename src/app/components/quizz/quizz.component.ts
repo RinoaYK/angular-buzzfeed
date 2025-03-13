@@ -69,7 +69,6 @@ export class QuizzComponent {
 					}
 			}
 
-
 			let maxScore = 0;
 			for (const [type, score] of Object.entries(mbtiScores)) {
 					if (score > maxScore) {
@@ -100,15 +99,13 @@ export class QuizzComponent {
 
 			this.resultCharacter = firstScore >= secondScore ? possibleCharacters[0].character : possibleCharacters[1].character;
 
-
 			const characterData = this.quizData.result.find(
 					(item: { character: string; type: string; anime: string; description: string; img: string }) =>
 							item.character === this.resultCharacter && item.type === this.winningType
 			);
 
-
 			this.anime = characterData ? characterData.anime : "Anime não encontrado";
-			this.answerSelected = `Seu tipo é ${this.winningType}, você é: ${this.resultCharacter} do anime ${this.anime}`;
+			this.answerSelected = `Seu tipo é ${this.winningType}, você é: ${this.resultCharacter} do anime ${this.anime}!`;
 			this.characterDescription = characterData ? characterData.description : "Descrição não encontrada";
 			this.characterImage = characterData ? characterData.img : "";
 	}

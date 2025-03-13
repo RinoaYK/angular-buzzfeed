@@ -1,34 +1,46 @@
 <div class="quizz__container">
-  <div class="quizz_logo">
-    <img src="assets/imgs/logo.png" alt="Logo">
-    <h1>{{ title }}</h1>
-  </div>
 
-  <div *ngIf="!finished" class="quizz_questions">
-    <h2>Pergunta {{ currentQuestionIndex + 1 }} de {{ questions.length }}</h2>
-    <h2>{{ questionSelected.question }}</h2>
-  </div>
+	<div class="quizz_logo">
+		<img src="assets/imgs/logo.png" alt="Logo">
+		<h1>{{ title }}</h1>
+	</div>
 
-  <div *ngIf="!finished" class="quizz_options">
-    <button
-      *ngFor="let option of getShuffledOptions()"
-      (click)="playerChoice(option.alias)"
-      class="btn-option"
-    >
-      {{ option.name }}
-    </button>
-  </div>
+	<div *ngIf="!finished" class="quizz_questions">
+		<p>Pergunta {{ currentQuestionIndex + 1 }} de {{ questions.length }}</p>
+		<h1>{{ questionSelected.question }}</h1>
+	</div>
 
-  <div *ngIf="finished" class="quizz_results">
-    <h1>O seu resultado é:</h1>
-		<p>{{ anime }}</p>
-		<p>{{ winningType }}</p>
-		<p>{{ resultCharacter }}</p>
-    <p>{{ answerSelected }}</p>
-    <div *ngIf="characterImage" class="character-image">
-      <img [src]="characterImage" alt="{{ resultCharacter }}" style="max-width: 200px;">
-    </div>
-    <p class="character-description">{{ characterDescription }}</p>
-    <button (click)="restartQuiz()" class="btn-restart">Jogar Novamente</button>
-  </div>
+	<div *ngIf="!finished" class="quizz_options">
+		<button *ngFor="let option of getShuffledOptions()" (click)="playerChoice(option.alias)" class="btn-option">
+			{{ option.name }}
+		</button>
+	</div>
+
+	<div *ngIf="finished" class="quizz_results">
+		<h2>O seu resultado é:</h2>
+
+		<div class="result">
+			<div style="display: flex; flex-direction: row; gap: 10px">
+				<h1>Seu tipo é</h1>
+				<h1 class="result_color"> {{ winningType }}, </h1>
+			</div>
+			<div style="display: flex; flex-direction: row; gap: 10px">
+				<h1>você é: </h1>
+				<h1 class="result_color">{{ resultCharacter }}</h1>
+			</div>
+			<h1>do anime {{ anime }}!</h1>
+		</div>
+
+		<div class="result_container">
+			<div class="character-image">
+				<img [src]="characterImage" [alt]="resultCharacter">
+			</div>
+
+			<div class="character-description">
+				<p>{{ characterDescription }}</p>
+			</div>
+		</div>
+
+		<button (click)="restartQuiz()" class="btn-restart">Jogar Novamente</button>
+	</div>
 </div>

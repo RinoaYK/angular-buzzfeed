@@ -62,7 +62,7 @@ ESTP
 Denji - Chainsaw Man
 Momo Ayase - Dandadan
 
-ESFP 
+ESFP
 Luffy - One Piece
 Goku - Dragon Ball Z
 _____________________________________________________
@@ -88,21 +88,21 @@ Onde alias é a contagem dos pontos.
 
 
 
-INTJ: 
-INTP: 
-ENTJ: 
-ENTP: 
-INFJ: 
-INFP: 
-ENFJ: 
-ENFP: 
-ISTJ: 
-ISFJ: 
-ESTJ: 
-ESFJ: 
-ISTP: 
+INTJ:
+INTP:
+ENTJ:
+ENTP:
+INFJ:
+INFP:
+ENFJ:
+ENFP:
+ISTJ:
+ISFJ:
+ESTJ:
+ESFJ:
+ISTP:
 ISFP:
-ESTP: 
-ESFP: 
+ESTP:
+ESFP:
 
 
