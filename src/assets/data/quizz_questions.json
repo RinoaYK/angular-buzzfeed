@@ -1,55 +1,621 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
-    {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-      ]
-    },
-    {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-      ]
-    },
-    {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
-      ]
-    },
-    {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-      ]
-    },
-    {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
-      ]
-    }
-  ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
-  }
+	"title": "Qual personagem de anime você seria?",
+	"questions": [
+		{
+			"id": 1,
+			"question": "Como você aborda um problema difícil?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Analiso friamente os fatos e crio um plano estratégico.",
+					"alias": "INTJ, ENTJ"
+				},
+				{
+					"id": 2,
+					"name": "Exploro várias possibilidades e teorias antes de decidir.",
+					"alias": "INTP, ENTP"
+				},
+				{
+					"id": 3,
+					"name": "Busco entender como isso afeta os outros e resolvo com empatia.",
+					"alias": "INFJ, ENFJ"
+				},
+				{
+					"id": 4,
+					"name": "Deixo meu instinto me guiar e ajo conforme sinto.",
+					"alias": "ISFP, ESFP"
+				},
+				{
+					"id": 5,
+					"name": "Sigo um método prático e testado, sem complicações.",
+					"alias": "ISTJ, ESTJ"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"question": "Qual é o seu maior ponto forte?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Minha visão de longo prazo e determinação.",
+					"alias": "INTJ, ENTJ"
+				},
+				{
+					"id": 2,
+					"name": "Minha criatividade e habilidade de improvisar.",
+					"alias": "ENTP, INFP"
+				},
+				{
+					"id": 3,
+					"name": "Minha capacidade de inspirar e unir pessoas.",
+					"alias": "ENFJ, ESFJ"
+				},
+				{
+					"id": 4,
+					"name": "Minha adaptabilidade e foco no momento presente.",
+					"alias": "ISTP, ESTP"
+				},
+				{
+					"id": 5,
+					"name": "Minha atenção aos detalhes e senso de dever.",
+					"alias": "ISTJ, ISFJ"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"question": "Como você lida com emoções?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Prefiro mantê-las sob controle e focar na lógica.",
+					"alias": "INTJ, INTP"
+				},
+				{
+					"id": 2,
+					"name": "Tento entendê-las e usá-las para me guiar.",
+					"alias": "INFJ, INFP"
+				},
+				{
+					"id": 3,
+					"name": "Expresso abertamente e me conecto com os outros.",
+					"alias": "ENFP, ESFJ"
+				},
+				{
+					"id": 4,
+					"name": "Sinto intensamente, mas guardo para mim.",
+					"alias": "ISFP, ISFJ"
+				},
+				{
+					"id": 5,
+					"name": "Processo de forma prática, sem me deter muito.",
+					"alias": "ISTP, ESTP"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"question": "Em um grupo, qual é o seu papel?",
+			"options": [
+				{
+					"id": 1,
+					"name": "O estrategista que planeja tudo nos bastidores.",
+					"alias": "INTJ, INFJ"
+				},
+				{
+					"id": 2,
+					"name": "O líder que motiva e organiza a equipe.",
+					"alias": "ENTJ, ENFJ"
+				},
+				{
+					"id": 3,
+					"name": "O pensador que traz ideias inovadoras.",
+					"alias": "ENFP, ENTP"
+				},
+				{
+					"id": 4,
+					"name": "O apoio confiável que mantém tudo funcionando.",
+					"alias": "ISFJ, ESFJ"
+				},
+				{
+					"id": 5,
+					"name": "O executor que resolve problemas na hora.",
+					"alias": "ISTP, ESTP"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"question": "Como você passa seu tempo livre?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Estudando algo novo ou planejando projetos.",
+					"alias": "INTJ, INTP"
+				},
+				{
+					"id": 2,
+					"name": "Socializando e explorando novas experiências.",
+					"alias": "ENFP, ESFP"
+				},
+				{
+					"id": 3,
+					"name": "Ajudando amigos ou refletindo sobre a vida.",
+					"alias": "INFJ, ISFJ"
+				},
+				{
+					"id": 4,
+					"name": "Fazendo algo prático ou físico, como consertos ou esportes.",
+					"alias": "ISTP, ESTP"
+				},
+				{
+					"id": 5,
+					"name": "Organizando minhas coisas ou seguindo uma rotina.",
+					"alias": "ISTJ, ESTJ"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"question": "Qual é sua maior fraqueza?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Sou muito reservado e distante.",
+					"alias": "INFP, INTP"
+				},
+				{
+					"id": 2,
+					"name": "Posso ser impulsivo e desorganizado.",
+					"alias": "ENFP, ESFP"
+				},
+				{
+					"id": 3,
+					"name": "Coloco os outros acima de mim com frequência.",
+					"alias": "INFJ, ISFJ"
+				},
+				{
+					"id": 4,
+					"name": "Tenho dificuldade em planejar a longo prazo.",
+					"alias": "ISFP, ESTP"
+				},
+				{
+					"id": 5,
+					"name": "Sou rígido ou exigente demais.",
+					"alias": "ENTJ, ESTJ"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"question": "Como você reage a uma crítica?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Analiso se faz sentido e ajusto se necessário.",
+					"alias": "ENFJ, ISTJ"
+				},
+				{
+					"id": 2,
+					"name": "Debato ou ignoro se não concordo.",
+					"alias": "ENTP, ENTJ"
+				},
+				{
+					"id": 3,
+					"name": "Levo para o lado pessoal, mas tento melhorar.",
+					"alias": "INFP, ISFJ"
+				},
+				{
+					"id": 4,
+					"name": "Aceito bem e uso para crescer.",
+					"alias": "ENFJ, ESFJ"
+				},
+				{
+					"id": 5,
+					"name": "Não me afeta, sigo meu caminho.",
+					"alias": "ISTP, ESFP"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"question": "Qual é sua abordagem em uma crise?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Foco em encontrar uma solução lógica rapidamente.",
+					"alias": "INTJ, INTP"
+				},
+				{
+					"id": 2,
+					"name": "Improviso e confio na minha criatividade.",
+					"alias": "ENTP, ENFP"
+				},
+				{
+					"id": 3,
+					"name": "Apoio os outros enquanto resolvo o problema.",
+					"alias": "INFJ, ISFP"
+				},
+				{
+					"id": 4,
+					"name": "Ajo imediatamente com base no que vejo.",
+					"alias": "ISTP, ESFP"
+				},
+				{
+					"id": 5,
+					"name": "Sigo um plano estabelecido ou crio ordem.",
+					"alias": "ISTJ, ESTJ"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"question": "O que te motiva?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Alcançar meus objetivos e ter controle.",
+					"alias": "ENTJ, ESTJ"
+				},
+				{
+					"id": 2,
+					"name": "Descobrir coisas novas e explorar ideias.",
+					"alias": "INTP, ENTP"
+				},
+				{
+					"id": 3,
+					"name": "Fazer a diferença na vida das pessoas.",
+					"alias": "INFP, ENFJ"
+				},
+				{
+					"id": 4,
+					"name": "Viver o momento e aproveitar a vida.",
+					"alias": "ESFP, ISFP"
+				},
+				{
+					"id": 5,
+					"name": "Cumprir minhas responsabilidades.",
+					"alias": "ISTJ, ESFJ"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"question": "Como você se descreve?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Reservado, mas visionário.",
+					"alias": "INFJ, INTJ"
+				},
+				{
+					"id": 2,
+					"name": "Extrovertido e cheio de energia.",
+					"alias": "ENFP, ESFP"
+				},
+				{
+					"id": 3,
+					"name": "Prático e direto ao ponto.",
+					"alias": "ESTP, ESTJ"
+				},
+				{ "id": 4, "name": "Curioso e imaginativo.", "alias": "INFP, ISFP" },
+				{
+					"id": 5,
+					"name": "Leal e preocupado com os outros.",
+					"alias": "ISFJ, ESFJ"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"question": "Qual é o seu estilo de tomada de decisão?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Baseado em lógica e análise detalhada.",
+					"alias": "INTP, ISTJ"
+				},
+				{
+					"id": 2,
+					"name": "Guiado por valores pessoais e intuição.",
+					"alias": "INFP, ISFP"
+				},
+				{
+					"id": 3,
+					"name": "Focado em liderar e alcançar resultados.",
+					"alias": "ENTJ, ENFJ"
+				},
+				{
+					"id": 4,
+					"name": "Espontâneo e adaptável às circunstâncias.",
+					"alias": "ENTP, ESTP"
+				},
+				{
+					"id": 5,
+					"name": "Pragmático e orientado por harmonia.",
+					"alias": "ESFJ, ENFP"
+				},
+				{
+					"id": 6,
+					"name": "Estruturado e voltado para eficiência.",
+					"alias": "ESTJ, ISTP"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"question": "Qual dessas abordagens você prefere em uma situação de alta pressão?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Manter a calma e manipular os eventos discretamente para alcançar meu objetivo.",
+					"alias": "Ayanokōji, L, Light, Osamu, Yuki, Megumin, Tanjiro, Anya, Fern, Hinata, Vegeta, Sakura, Saitama, Itadori, Denji, Luffy"
+				},
+				{
+					"id": 2,
+					"name": "Agir com confiança e usar minha habilidade para controlar a situação abertamente.",
+					"alias": "Loid, Rudeus, Sukuna, Satoru, Kurama, Shigeo, Aira, Naruto, Lu, Chopper, Nami, Tohru, Mash, Zenitsu, Momo, Goku"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"question": "O que você valoriza mais em si mesmo?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Minha inteligência ou habilidades únicas que me destacam dos outros.",
+					"alias": "Ayanokōji, L, Light, Satoru, Kurama, Megumin, Aira, Naruto, Lu, Chopper, Nami, Tohru, Mash, Zenitsu, Momo, Goku"
+				},
+				{
+					"id": 2,
+					"name": "Minha força interior ou capacidade de superar desafios com determinação.",
+					"alias": "Loid, Rudeus, Sukuna, Osamu, Yuki, Shigeo, Tanjiro, Anya, Fern, Hinata, Vegeta, Sakura, Saitama, Itadori, Denji, Luffy"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"question": "Como você interage com os outros?",
+			"options": [
+				{
+					"id": 1,
+					"name": "Sou mais reservado ou calculista, mantendo certa distância emocional.",
+					"alias": "Ayanokōji, L, Light, Osamu, Yuki, Shigeo, Aira, Lu, Hinata, Vegeta, Saitama, Itadori, Denji"
+				},
+				{
+					"id": 2,
+					"name": "Sou mais aberto ou expressivo, conectando-me facilmente com as pessoas.",
+					"alias": "Loid, Rudeus, Sukuna, Satoru, Kurama, Megumin, Tanjiro, Anya, Naruto, Fern, Chopper, Nami, Tohru, Sakura, Mash, Zenitsu, Momo, Luffy, Goku"
+				}
+			]
+		}
+	],
+	"result": [
+		{
+			"character": "Kiyotaka Ayanokōji",
+			"type": "INTJ",
+			"description": "Ayanokōji é um arquétipo clássico de INTJ: estratégico, calculista e visionário. Ele demonstra uma mente analítica afiada, antecipando os movimentos dos outros com precisão cirúrgica. Sua personalidade reservada e indiferente reflete o típico comportamento introvertido do INTJ, enquanto sua capacidade de planejar meticulosamente e manipular situações evidencia o pensamento estratégico Ni (Intuição Introvertida). Ayanokōji prioriza a lógica sobre as emoções, mantendo distância emocional para alcançar seus objetivos maiores, alinhado ao Te (Pensamento Extrovertido) do INTJ. Seu mistério e autocontrole são marcas registradas dessa personalidade.",
+			"img": "/assets/imgs/Ayanokoji.webp",
+			"anime": "Classroom of the Elite"
+		},
+		{
+			"character": "Loid Forger",
+			"type": "INTJ",
+			"description": "Loid também personifica o INTJ, mas com nuances mais 'humanizadas'. Como espião, ele é altamente estratégico e metódico, sempre visualizando o panorama geral da Operação Strix. Seu Ni é evidente em sua habilidade de prever cenários e criar planos detalhados, enquanto seu Te se manifesta na execução precisa desses planos. Embora Loid seja frio e pragmático no trabalho, sua vida familiar revela um lado mais ponderado e adaptável, mostrando que ele valoriza estrutura e estabilidade, características comuns ao INTJ. Sua postura calma e introspectiva reflete o equilíbrio entre estratégia e contenção emocional típico desse tipo.",
+			"img": "/assets/imgs/Loid.jpg",
+			"anime": "Spy  x Family"
+		},
+		{
+			"character": "L Lawliet",
+			"type": "INTP",
+			"description": "L é outro arquétipo perfeito de INTP: brilhante, excêntrico e profundamente analítico. Seu foco obsessivo em resolver problemas complexos reflete o Ti, enquanto sua capacidade de conectar ideias aparentemente desconexas demonstra o Ne. L é altamente lógico e imparcial, priorizando fatos e raciocínio dedutivo sobre emoções ou convenções sociais. Sua natureza introspectiva e comportamento excêntrico (como postura relaxada e hábitos peculiares) são características típicas de INTPs que desafiam normas sociais. L também mostra uma tendência à procrastinação e evitação emocional, comuns em INTPs.",
+			"img": "/assets/imgs/Lawliet-L-Cole.webp",
+			"anime": "Death Note"
+		},
+		{
+			"character": "Rudeus Greyrat",
+			"type": "INTP",
+			"description": "Rudeus é um exemplo clássico de INTP: curioso, analítico e profundamente introspectivo. Sua mente questionadora e amor por aprendizado refletem o domínio do Ti (Pensamento Introvertido), enquanto sua imaginação vívida e criatividade mostram o Ne (Intuição Extrovertida) em ação. Ele é intelectualmente ávido, sempre buscando entender o mundo ao seu redor e melhorar suas habilidades. Apesar de sua genialidade, Rudeus luta com inseguranças emocionais e traumas do passado, típico de INTPs que muitas vezes negligenciam o lado emocional. Sua personalidade reservada e preferência por explorar ideias internamente alinha-se ao perfil introvertido e teórico do INTP.",
+			"img": "/assets/imgs/Rudeus-Greyrat.jpg",
+			"anime": "Mushoku Tensei"
+		},
+		{
+			"character": "Light Yagami",
+			"type": "ENTJ",
+			"description": "Light é o arquétipo perfeito de ENTJ: ambicioso, carismático e estratégico. Ele possui uma visão clara de um mundo 'ideal' e usa sua inteligência superior para planejar meticulosamente como alcançá-la, refletindo o domínio do Te (Pensamento Extrovertido). Sua capacidade de manipular pessoas e situações demonstra seu Ni (Intuição Introvertida), antecipando os movimentos dos outros com precisão. Light é confiante e carismático, capaz de inspirar lealdade ou medo conforme necessário, mas também é implacável e egocêntrico, priorizando seus objetivos acima de tudo. Sua liderança natural e determinação incansável são marcas registradas do ENTJ.",
+			"img": "/assets/imgs/light-yagami.webp",
+			"anime": "Death Note"
+		},
+		{
+			"character": "Ryomen Sukuna",
+			"type": "ENTJ",
+			"description": "Sukuna personifica o ENTJ com um toque de brutalidade e arrogância. Ele é extremamente confiante e assertivo, sempre buscando controle e dominação, características alinhadas ao Te. Seu foco em conquistar poder e estabelecer hierarquias reflete sua visão estratégica e ambição desmedida. Sukuna também demonstra Ni ao prever e explorar as fraquezas de seus inimigos, usando sua mente afiada para garantir vitórias decisivas. Embora seja mais agressivo e impulsivo que o típico ENTJ, sua liderança natural e habilidade de comandar respeito (mesmo através do medo) são evidências claras de sua personalidade ENTJ.",
+			"img": "/assets/imgs/sukuna.jpg",
+			"anime": "Jujutsu kaisen"
+		},
+		{
+			"character": "Osamu Dazai",
+			"type": "ENTP",
+			"description": "Dazai é um exemplo clássico de ENTP: charmoso, engenhoso e imprevisível. Sua mente brilhante e criativa reflete o domínio do Ne (Intuição Extrovertida), sempre explorando múltiplas possibilidades e soluções inovadoras para problemas complexos. Ele é altamente estratégico, mas prefere abordagens não convencionais, muitas vezes usando sua inteligência para manipular situações a seu favor. Dazai também demonstra Ti ao analisar criticamente as motivações das pessoas e decifrar suas fraquezas. Apesar de sua natureza brincalhona e sarcástica, ele esconde uma visão mais profunda e cínica da vida, típica dos ENTPs que questionam normas e valores sociais.",
+			"img": "/assets/imgs/osamu-dazai.avif",
+			"anime": "Bungou Stray Dogs"
+		},
+		{
+			"character": "Satoru Gojo",
+			"type": "ENTP",
+			"description": "Gojo é em arquétipo perfeito de ENTP: carismático, confiante e extremamente inventivo. Sua habilidade de pensar fora da caixa e adaptar-se rapidamente a situações desafiadoras reflete o Ne, enquanto seu domínio técnico e compreensão profunda de conceitos complexos mostram o Ti. Gojo é um estrategista natural, capaz de criar soluções criativas sob pressão, mas também gosta de provocar e desafiar os outros, exibindo o humor característico dos ENTPs. Sua atitude relaxada e autoconfiante mascara uma mentalidade altamente competitiva e uma busca constante por estímulo intelectual.",
+			"img": "/assets/imgs/Gojo.jpg",
+			"anime": "Jujutsu kaisen"
+		},
+		{
+			"character": "Yuki Sohma",
+			"type": "INFJ",
+			"description": "Yuki é um exemplo clássico de INFJ: gentil, empático e profundamente introspectivo. Sua sensibilidade às emoções dos outros reflete o Fe (Sentimento Extrovertido), enquanto sua tendência a refletir sobre si mesmo e buscar significado interno demonstra o Ni (Intuição Introvertida). Yuki frequentemente se preocupa com o bem-estar das pessoas ao seu redor, muitas vezes colocando os outros antes de si mesmo, mas luta contra inseguranças internas e sentimentos de inadequação. Sua personalidade reservada e idealista, combinada com uma necessidade de harmonia, é típica do INFJ. Ele busca criar conexões genuínas, ainda que sua vulnerabilidade emocional o faça hesitar em abrir-se completamente.",
+			"img": "/assets/imgs/Yunyun.webp",
+			"anime": "Fruits Basket"
+		},
+		{
+			"character": "Kurama Yōko",
+			"type": "INFJ",
+			"description": "Kurama é outro arquétipo de INFJ, mas com nuances mais estratégicas e misteriosas. Sua intuição aguçada e visão de longo prazo refletem o Ni, enquanto sua capacidade de compreender e manipular as emoções dos outros demonstra o Fe. Kurama é carismático e compassivo, mas também calculista quando necessário, equilibrando sua natureza idealista com decisões pragmáticas. Apesar de sua postura calma e controlada, ele guarda um lado profundo e protetor, especialmente em relação àqueles que ama. Sua dualidade entre 'Yōko' (mais estratégica) e 'Shuichi' (mais empática) realça a complexidade emocional e moral típica dos INFJs.",
+			"img": "/assets/imgs/Yu-Yu-Hakusho-Kurama.avif",
+			"anime": "Yu yu Hakusho"
+		},
+		{
+			"character": "Megumin",
+			"type": "INFP",
+			"description": "Megumin é um exemplo único de INFP: idealista, apaixonada e profundamente comprometida com suas convicções. Sua dedicação obsessiva às explosões reflete o Fi (Sentimento Introvertido), onde ela encontra significado pessoal e propósito em algo que ama intensamente. Megumin é leal aos seus amigos e valores, muitas vezes agindo com base em princípios internos, mesmo que isso pareça irracional para os outros. Apesar de sua excentricidade e comportamento cômico, ela demonstra uma conexão genuína com suas emoções e um desejo de viver autenticamente, características típicas do INFP. Seu entusiasmo criativo e espontaneidade também mostram um toque de Ne (Intuição Extrovertida).",
+			"img": "/assets/imgs/Megumin.webp",
+			"anime": "KonoSuba"
+		},
+		{
+			"character": "Shigeo Mob Kageyama",
+			"type": "INFP",
+			"description": "Mob é outro arquétipo claro de INFP: introspectivo, gentil e profundamente idealista. Sua luta para entender seus próprios sentimentos e encontrar seu lugar no mundo reflete o domínio do Fi, enquanto sua curiosidade sobre as pessoas e o mundo ao seu redor demonstra o Ne. Mob busca viver de acordo com seus princípios morais, priorizando a bondade e a compreensão, mesmo quando confrontado com desafios difíceis. Ele é reservado e frequentemente retraído, mas suas ações são guiadas por uma profunda compaixão e desejo de fazer o bem. Sua personalidade tranquila e reflexiva, combinada com momentos de intensidade emocional, é típica dos INFPs.",
+			"img": "/assets/imgs/mob.avif",
+			"anime": "Mob Psycho 100"
+		},
+		{
+			"character": "Tanjiro Kamado",
+			"type": "ENFJ",
+			"description": "Tanjiro é um arquétipo de ENFJ: compassivo, altruísta e profundamente comprometido com o bem-estar dos outros. Sua empatia extraordinária e habilidade de entender as emoções das pessoas ao seu redor refletem o Fe, enquanto sua determinação incansável em alcançar seus objetivos demonstra o Ni. Tanjiro é guiado por princípios morais inabaláveis, sempre colocando os outros antes de si mesmo e buscando restaurar a paz e a justiça. Ele atua como um pilar de apoio emocional para seus companheiros, especialmente Nezuko, mostrando sua natureza protetora e inspiradora. Sua gentileza e perseverança são características marcantes do ENFJ, combinadas com uma força interior que motiva aqueles ao seu redor.",
+			"img": "/assets/imgs/Tanjiro.webp",
+			"anime": "Kimetsu no Yaiba"
+		},
+		{
+			"character": "Aira Shiratori",
+			"type": "ENFJ",
+			"description": "Aira é um exemplo claro de ENFJ: carismática, empática e profundamente dedicada às pessoas ao seu redor. Sua capacidade de inspirar e motivar os outros reflete o Fe (Sentimento Extrovertido), enquanto sua visão idealista e foco em metas maiores demonstram o Ni (Intuição Introvertida). Aira possui uma compreensão aguçada das emoções alheias e usa essa habilidade para criar conexões genuínas e apoiar aqueles que ama. Ela é frequentemente vista como uma figura central em seu grupo, liderando com compaixão e determinação. Apesar de sua personalidade calorosa, ela também tem um lado resiliente e protetor, típico dos ENFJs, que lutam para manter a harmonia e o bem-estar coletivo.",
+			"img": "/assets/imgs/Aira.webp",
+			"anime": "Dandadan"
+		},
+		{
+			"character": "Anya Forger",
+			"type": "ENFP",
+			"description": "Anya é um exemplo encantador de ENFP: espontânea, empática e cheia de energia criativa. Sua capacidade de captar as emoções dos outros reflete o Fe (Sentimento Extrovertido), enquanto sua imaginação vívida e entusiasmo por novas ideias demonstram o Ne (Intuição Extrovertida). Anya é curiosa e adaptável, sempre encontrando maneiras engenhosas de navegar pelas situações da escola e da família adotiva. Apesar de sua personalidade brincalhona, ela possui uma compreensão profunda das pessoas ao seu redor, muitas vezes usando suas habilidades para criar conexões genuínas. Seu charme e otimismo fazem dela uma figura cativante, típica dos ENFPs.",
+			"img": "/assets/imgs/anya.webp",
+			"anime": "Spy x Family"
+		},
+		{
+			"character": "Naruto Uzumaki",
+			"type": "ENFP",
+			"description": "Naruto é outro arquétipo vibrante de ENFP: apaixonado, idealista e incrivelmente resiliente. Sua determinação em alcançar seus sonhos e inspirar os outros reflete o Ne, enquanto sua necessidade de ser amado e aceito demonstra o Fe. Naruto é movido por paixão e emoção, frequentemente agindo com base no coração em vez de seguir normas rígidas. Ele é extremamente leal aos seus amigos e sonha em criar um mundo melhor, onde todos possam coexistir em harmonia. Sua energia contagiante, humor irreverente e capacidade de superar desafios com criatividade são características marcantes do ENFP.",
+			"img": "/assets/imgs/naruto.jpg",
+			"anime": "Naruto Shippuden"
+		},
+		{
+			"character": "Fern",
+			"type": "ISTJ",
+			"description": "Fern é um exemplo clássico de ISTJ: disciplinada, prática e profundamente dedicada. Sua atenção aos detalhes e sua abordagem metódica refletem o Si (Sensação Introvertida), enquanto sua lealdade e senso de dever demonstram o Te (Pensamento Extrovertido). Fern é confiável e eficiente, sempre cumprindo suas responsabilidades com precisão e dedicação. Ela valoriza a ordem e a estrutura, muitas vezes agindo como a âncora emocional e prática de sua equipe. Apesar de sua personalidade reservada, ela mostra um profundo senso de compromisso com aqueles que ama, típico dos ISTJs, que priorizam estabilidade e confiança.",
+			"img": "/assets/imgs/Fern.jpg",
+			"anime": "Sousou no Frieren"
+		},
+		{
+			"character": "Lu Guang",
+			"type": "ISTJ",
+			"description": "Lu Guang personifica o ISTJ: organizado, responsável e altamente confiável. Sua memória detalhada e habilidade para seguir rotinas e processos refletem o domínio do Si, enquanto sua capacidade de tomar decisões lógicas e eficientes demonstra o Te. Lu Guang é meticuloso em seu trabalho, sempre buscando a perfeição e garantindo que tudo esteja em ordem. Ele é quieto e introspectivo, preferindo ações práticas a grandes gestos emocionais, mas sua lealdade e dedicação são evidentes nas situações em que protege ou apoia seus companheiros. Seu pragmatismo e senso de dever são características marcantes do ISTJ.",
+			"img": "/assets/imgs/Lu.webp",
+			"anime": "Link Click"
+		},
+		{
+			"character": "Hinata Hyūga",
+			"type": "ISFJ",
+			"description": "Hinata é um exemplo perfeito de ISFJ: gentil, leal e profundamente empática. Sua preocupação com o bem-estar dos outros reflete o Fe (Sentimento Extrovertido), enquanto sua memória detalhada e apego às tradições demonstram o Si (Sensação Introvertida). Hinata é reservada e tímida, mas extremamente dedicada, especialmente quando se trata de proteger aqueles que ama. Ela coloca os outros antes de si mesma, muitas vezes sacrificando seu conforto para ajudar quem precisa. Sua perseverança silenciosa e desejo de criar harmonia são características típicas do ISFJ, que valoriza a segurança e o apoio emocional.",
+			"img": "/assets/imgs/Hinata.webp",
+			"anime": "Naruto Shippuden"
+		},
+		{
+			"character": "Tony Tony Chopper",
+			"type": "ISFJ",
+			"description": "Chopper é um arquétipo claro de ISFJ: carinhoso, responsável e protetor. Sua paixão por cuidar dos outros como médico reflete o Fe, enquanto sua conexão com suas experiências passadas e aprendizados demonstra o Si. Chopper é gentil e sensível, frequentemente colocando os feridos e necessitados em primeiro lugar. Apesar de sua aparência fofa e momentos de insegurança, ele é incrivelmente corajoso quando se trata de proteger seus amigos, mostrando um forte senso de dever. Sua natureza cuidadosa e leal, combinada com seu desejo de ajudar os outros, é típica dos ISFJs.",
+			"img": "/assets/imgs/chopper.jpg",
+			"anime": "One Piece"
+		},
+		{
+			"character": "Vegeta",
+			"type": "ESTJ",
+			"description": "Vegeta personifica o ESTJ com um toque de arrogância e intensidade: disciplinado, ambicioso e focado em resultados. Sua busca incansável por poder e perfeição reflete o Te, enquanto sua conexão com seu legado e orgulho pelo passado demonstram o Si. Vegeta é altamente competitivo e valoriza a hierarquia e a força, muitas vezes agindo como um líder natural, mesmo que de forma autoritária. Ele é direto e objetivo, sem paciência para sentimentalismos ou fraquezas, mas ao longo do tempo desenvolve um forte senso de dever para com sua família e aliados. Sua determinação inabalável e senso de responsabilidade são características marcantes do ESTJ.",
+			"img": "/assets/imgs/Vegeta.jpg",
+			"anime": "Dragon ball"
+		},
+		{
+			"character": "Nami",
+			"type": "ESTJ",
+			"description": "Nami é um exemplo claro de ESTJ: prática, organizada e extremamente confiável. Sua abordagem metódica para planejar e executar tarefas reflete o Te (Pensamento Extrovertido), enquanto sua memória detalhada e apego às tradições demonstram o Si (Sensação Introvertida). Nami é uma estrategista nata, sempre priorizando a eficiência e a segurança de sua tripulação. Ela é direta e assertiva, muitas vezes assumindo o papel de líder em situações que exigem planejamento cuidadoso. Apesar de sua natureza pragmática, ela também é leal e protetora com seus amigos, mostrando um lado mais caloroso típico dos ESTJs quando se trata de pessoas importantes para ela.",
+			"img": "/assets/imgs/nami.webp",
+			"anime": "One Piece"
+		},
+		{
+			"character": "Sakura Haruno",
+			"type": "ESFJ",
+			"description": "Sakura é um exemplo claro de ESFJ: empática, leal e altamente dedicada às pessoas ao seu redor. Sua capacidade de entender e responder às emoções dos outros reflete o Fe (Sentimento Extrovertido), enquanto sua conexão com suas experiências passadas e aprendizados demonstra o Si (Sensação Introvertida). Sakura é profundamente comprometida com seus amigos e colegas de equipe, muitas vezes colocando-se em risco para protegê-los. Ela valoriza harmonia e cooperação, mas também é prática e direta quando necessário. Apesar de sua vulnerabilidade emocional em momentos de pressão, ela desenvolve uma forte ética de trabalho e senso de responsabilidade, características típicas dos ESFJs.",
+			"img": "/assets/imgs/Sakura_Haruno.webp",
+			"anime": "Naruto Shippuden"
+		},
+		{
+			"character": "Tohru Honda",
+			"type": "ESFJ",
+			"description": "Tohru é um arquétipo perfeito de ESFJ: gentil, prestativa e profundamente preocupada com o bem-estar dos outros. Sua habilidade de criar conexões genuínas e oferecer apoio emocional reflete o Fe, enquanto sua dependência de rotinas e memórias positivas demonstra o Si. Tohru é sempre a primeira a oferecer ajuda ou conforto, muitas vezes sacrificando suas próprias necessidades para garantir que os outros estejam bem. Ela busca constantemente criar um ambiente harmonioso e acolhedor, mesmo em situações desafiadoras. Sua natureza altruísta, combinada com sua determinação silenciosa, é típica dos ESFJs, que priorizam cuidado e conexão humana.",
+			"img": "/assets/imgs/tohru.jpg",
+			"anime": "Fruits Basket"
+		},
+		{
+			"character": "Saitama",
+			"type": "ISTP",
+			"description": "Saitama personifica o ISTP: reservado, minimalista e incrivelmente eficiente. Sua abordagem pragmática à vida e ao heroísmo reflete o Se, enquanto seu pensamento lógico e despreocupação com normas sociais demonstram o Ti. Saitama é direto e objetivo, preferindo agir rapidamente em vez de planejar ou se preocupar com detalhes desnecessários. Ele não busca reconhecimento ou aprovação, mantendo uma atitude relaxada e indiferente mesmo em situações críticas. Sua simplicidade combinada com sua incrível habilidade física o torna um arquétipo perfeito do ISTP, que valoriza liberdade e autonomia.",
+			"img": "/assets/imgs/saitama.jpg",
+			"anime": "One Punch Man"
+		},
+		{
+			"character": "Mash Burnedead",
+			"type": "ISTP",
+			"description": "Mash é um exemplo clássico de ISTP: prático, independente e cheio de energia física. Sua abordagem direta e foco em ação refletem o Se (Sensação Extrovertida), enquanto sua habilidade de analisar problemas de forma lógica demonstra o Ti (Pensamento Introvertido). Mash prefere aprender fazendo, muitas vezes ignorando teorias complicadas para se concentrar no que funciona na prática. Ele é adaptável e confiante, sempre buscando resolver os desafios à sua frente com criatividade e força bruta. Apesar de sua personalidade descontraída e humorística, ele é extremamente competente quando se trata de enfrentar adversidades, características típicas dos ISTPs.",
+			"img": "/assets/imgs/Mashle.webp",
+			"anime": "Marshle"
+		},
+		{
+			"character": "Yuji Itadori",
+			"type": "ISFP",
+			"description": "Itadori é um exemplo claro de ISFP: compassivo, espontâneo e profundamente conectado ao momento presente. Sua abordagem prática e foco em ações imediatas refletem o Se (Sensação Extrovertida), enquanto sua lealdade aos outros e valores pessoais demonstram o Fi (Sentimento Introvertido). Itadori age com base no que sente ser certo, muitas vezes colocando-se em perigo para proteger os outros. Ele é descontraído e amigável, mas também possui uma força interna resiliente e um senso de justiça inabalável. Sua capacidade de enfrentar desafios com coragem e adaptabilidade é típica dos ISFPs, que valorizam autenticidade e conexões humanas.",
+			"img": "/assets/imgs/Itadori.jpg",
+			"anime": "Jujutsu Kaisen"
+		},
+		{
+			"character": "Zenitsu Agatsuma",
+			"type": "ISFP",
+			"description": "Zenitsu é um arquétipo de ISFP: sensível, intuitivo e cheio de emoções intensas. Sua conexão com suas próprias emoções e sua dedicação às pessoas que ama refletem o Fi, enquanto sua habilidade de reagir rapidamente em momentos críticos demonstra o Se. Zenitsu pode parecer inseguro e ansioso no dia a dia, mas em situações de perigo, ele se transforma em um lutador confiante e eficiente, agindo com precisão instintiva. Apesar de seu comportamento cômico e frequentemente dramático, ele é profundamente leal e protetor, especialmente em relação àqueles que considera importantes. Sua natureza gentil e impulsiva é típica dos ISFPs.",
+			"img": "/assets/imgs/zenitsu.webp",
+			"anime": "Kimetsu no Yaiba"
+		},
+		{
+			"character": "Denji",
+			"type": "ESTP",
+			"description": "Denji personifica o ESTP com um toque de ingenuidade e intensidade: impulsivo, prático e orientado para a ação. Sua conexão com o momento presente e sua capacidade de reagir instintivamente a ameaças refletem o Se, enquanto sua simplicidade e lógica direta demonstram o Ti. Denji vive no aqui e agora, priorizando suas necessidades básicas e desejos imediatos, como comida e segurança. Ele não se preocupa com convenções sociais ou planos de longo prazo, preferindo resolver problemas à medida que surgem. Sua natureza descontraída, combinada com sua coragem e força física, é típica dos ESTPs, que valorizam liberdade e ação.",
+			"img": "/assets/imgs/denji.webp",
+			"anime": "Chainsaw Man"
+		},
+		{
+			"character": "Momo Ayase",
+			"type": "ESTP",
+			"description": "Momo é um exemplo clássico de ESTP: carismática, espontânea e extremamente prática. Sua abordagem direta e foco em resultados imediatos refletem o Se (Sensação Extrovertida), enquanto sua habilidade de tomar decisões lógicas e estratégicas demonstra o Ti (Pensamento Introvertido). Momo é confiante e assertiva, sempre pronta para enfrentar desafios de frente com energia e determinação. Ela não hesita em agir rapidamente quando necessário, muitas vezes usando sua criatividade e senso de humor para lidar com situações difíceis. Apesar de seu comportamento extrovertido e brincalhão, ela é incrivelmente eficiente e resiliente, características típicas dos ESTPs.",
+			"img": "/assets/imgs/momo.jpg",
+			"anime": "Dandadan"
+		},
+		{
+			"character": "Luffy",
+			"type": "ESFP",
+			"description": "Luffy é um exemplo perfeito de ESFP: espontâneo, carismático e cheio de energia. Sua conexão com o momento presente e sua habilidade de aproveitar a vida ao máximo refletem o Se (Sensação Extrovertida), enquanto sua lealdade e paixão por aqueles que ama demonstram o Fi (Sentimento Introvertido). Luffy vive intensamente cada situação, sempre buscando diversão e aventura, mas também é profundamente dedicado a seus amigos e sonhos. Ele age com base no coração, muitas vezes ignorando planos complexos para seguir sua intuição e instinto. Sua natureza otimista, corajosa e inspiradora é típica dos ESFPs, que valorizam liberdade e conexões genuínas.",
+			"img": "/assets/imgs/luffy.avif",
+			"anime": "One Piece"
+		},
+		{
+			"character": "Goku",
+			"type": "ESFP",
+			"description": "Goku personifica o ESFP: vibrante, impulsivo e extremamente apaixonado pelo que faz. Sua abordagem prática e foco em ações imediatas refletem o Se, enquanto seu senso de justiça pessoal e amor pelos outros demonstram o Fi. Goku vive para o desafio e a emoção do combate, sempre buscando se superar e enfrentar adversários mais fortes. Ele é simples e direto, muitas vezes agindo sem pensar nas consequências, mas sua bondade inabalável e desejo de proteger os outros são evidentes em tudo o que faz. Sua energia contagiante e entusiasmo pela vida são características marcantes dos ESFPs.",
+			"img": "/assets/imgs/Goku.jpg",
+			"anime": "Dragon Ball"
+		}
+	]
 }

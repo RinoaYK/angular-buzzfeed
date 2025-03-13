@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 	border: 0;
-	color: antiquewhite;
+	color: #6f83a5;
 }
 
 body {
-	background-color: #1f1147;
+	background-color: #262d39;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
