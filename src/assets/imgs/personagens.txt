@@ -56,15 +56,53 @@ Mash Burnedead - Marshle
 
 ISFP
 Yuji Itadori - Jujutsu Kaisen
-Zenithu Agatsuma - Kimetsu no Yaiba
+Zenitsu Agatsuma - Kimetsu no Yaiba
 
 ESTP
 Denji - Chainsaw Man
 Momo Ayase - Dandadan
 
-ESFP
+ESFP 
 Luffy - One Piece
 Goku - Dragon Ball Z
 _____________________________________________________
+
+Pensando em um quiz com 10 perguntas, formule 5 respostas, que chegue a algum dos resultados acima, que seriam o nome dos personagens.
+Considere que são 2 personagens mencionados para cada tipo.
+Coloque junto das respostas como seriam a contagem de pontos pra definir a resposta
+
+Vc pode criar um arquivo json com essas questões, colocadas da seguinte forma:
+{
+  "title":"Qual personagem de anime você seria?",
+  "questions":[
+    {
+      "id":1,
+      "question": "",
+      "options":[
+        {"id": 1, "name":"", "alias":""},
+      ]
+    },
+
+Onde alias é a contagem dos pontos.
+////////////////////////////////////////////
+
+
+
+INTJ: 
+INTP: 
+ENTJ: 
+ENTP: 
+INFJ: 
+INFP: 
+ENFJ: 
+ENFP: 
+ISTJ: 
+ISFJ: 
+ESTJ: 
+ESFJ: 
+ISTP: 
+ISFP:
+ESTP: 
+ESFP: 
 
 
