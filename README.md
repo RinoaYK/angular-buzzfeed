@@ -1,59 +1,52 @@
-# AngularBuzzfeed
+#  - Lidia Yamamura - 
+### Veja o site:
+[**MBTI Anime Quiz**](https://angular-blog-lidia-yamamura.vercel.app/)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+# Decola Tech 2025 - BuzzFeed
+
+Esse projeto é um quiz no estilo do BuzzFeed desenvolvido no Decola Tech 2025.
+
+## Qual personagem de anime você seria segundo o [**MBTI**](https://www.16personalities.com/br/descricoes-dos-tipos)?
+
+Bem-vindo ao nosso divertido quiz no estilo BuzzFeed, desenvolvido durante o Decola Tech 2025! Prepare-se para embarcar em uma jornada de autoconhecimento e descobrir qual personagem de anime mais se alinha com a sua personalidade.
+
+Este quiz é baseado no Indicador de Tipo de Myers-Briggs ([**MBTI**](https://www.16personalities.com/br/descricoes-dos-tipos)), um modelo de personalidade que explora como percebemos o mundo e tomamos decisões. O [**MBTI**](https://www.16personalities.com/br/descricoes-dos-tipos) categoriza as personalidades em 16 tipos diferentes, combinando quatro dicotomias:
+
+* Extroversão (E) vs. Introversão (I)
+* Sensorial (S) vs. Intuitivo (N)
+* Racional (T) vs. Sentimental (F)
+* Julgador (J) vs. Perceptivo (P)
+
+Com 32 personagens possíveis, ao responder a 14 questões cuidadosamente elaboradas, você revelará seu tipo de personalidade [**MBTI**](https://www.16personalities.com/br/descricoes-dos-tipos) e descobrirá qual personagem de anime compartilha das mesmas características. Será você um estrategista como L de Death Note, um aventureiro destemido como Luffy de One Piece, ou algo totalmente inesperado?  Faça o quiz e descubra!
+
+
+**Destaques:**
+* **Design Responsivo:** Este projeto garante uma experiência otimizada em diversas plataformas, adaptando-se a diferentes tamanhos de tela.
+* **Perguntas Embaralhadas:** As 14 questões do quiz são sempre misturadas, então preste atenção em suas respostas!
+
+
+## Principais Tecnologias
+ - **Angular 19**
+ - **HTML**
+ - **CSS** 
+ - **TypeScript**  
+
+## Iniciar o Projeto
+
+Para iniciar o projeto depois de cloná-lo, rode o seguinte comando:
+
+```bash
+npm install
+```
+
+Irá instalar as dependências necessárias para executar o projeto localmente.
 
 ## Development server
 
-To start a local development server, run:
+Para iniciar um servidor de desenvolvimento local, execute:
 
 ```bash
-ng serve
+ng serve -o
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Irá executar o servidor, abrindo seu navegador automaticamente em http://localhost:4200/. O aplicativo será recarregado automaticamente sempre que você modificar qualquer um dos arquivos de origem.

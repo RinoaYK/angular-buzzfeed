@@ -1,5 +1,5 @@
 {
-	"title": "Qual personagem de anime você seria?",
+	"title": "Qual personagem de anime você seria segundo o MBTI?",
 	"questions": [
 		{
 			"id": 1,
@@ -403,7 +403,7 @@
 		{
 			"character": "Loid Forger",
 			"type": "INTJ",
-			"description": "Loid personifica o INTJ, mas com nuances mais 'humanizadas'. Como espião, ele é altamente estratégico e metódico, sempre visualizando o panorama geral da Operação Strix. Seu Ni é evidente em sua habilidade de prever cenários e criar planos detalhados, enquanto seu Te se manifesta na execução precisa desses planos. Embora Loid seja frio e pragmático no trabalho, sua vida familiar revela um lado mais ponderado e adaptável, mostrando que ele valoriza estrutura e estabilidade, características comuns ao INTJ. Sua postura calma e introspectiva reflete o equilíbrio entre estratégia e contenção emocional típico desse tipo.",
+			"description": "Loid personifica o INTJ. Como espião, ele é altamente estratégico e metódico, sempre visualizando o panorama geral da Operação Strix. Seu Ni é evidente em sua habilidade de prever cenários e criar planos detalhados, enquanto seu Te se manifesta na execução precisa desses planos. Embora Loid seja frio e pragmático no trabalho, sua vida familiar revela um lado mais ponderado e adaptável, mostrando que ele valoriza estrutura e estabilidade, características comuns ao INTJ. Sua postura calma e introspectiva reflete o equilíbrio entre estratégia e contenção emocional típico desse tipo.",
 			"img": "/assets/imgs/Loid.jpg",
 			"anime": "Spy  x Family"
 		},
@@ -418,7 +418,7 @@
 			"character": "Rudeus Greyrat",
 			"type": "INTP",
 			"description": "Rudeus é um exemplo clássico de INTP: curioso, analítico e profundamente introspectivo. Sua mente questionadora e amor por aprendizado refletem o domínio do Ti (Pensamento Introvertido), enquanto sua imaginação vívida e criatividade mostram o Ne (Intuição Extrovertida) em ação. Ele é intelectualmente ávido, sempre buscando entender o mundo ao seu redor e melhorar suas habilidades. Apesar de sua genialidade, Rudeus luta com inseguranças emocionais e traumas do passado, típico de INTPs que muitas vezes negligenciam o lado emocional. Sua personalidade reservada e preferência por explorar ideias internamente alinha-se ao perfil introvertido e teórico do INTP.",
-			"img": "/assets/imgs/Rudeus-Greyrat.jpg",
+			"img": "/assets/imgs/Rudeus-Greyrat.avif",
 			"anime": "Mushoku Tensei"
 		},
 		{
