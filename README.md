@@ -1,6 +1,6 @@
 #  - Lidia Yamamura - 
 ### Veja o site:
-[**MBTI Anime Quiz**](https://angular-blog-lidia-yamamura.vercel.app/)
+[**MBTI Anime Quiz**](https://mbti-anime-quiz.vercel.app/)
 
 # Decola Tech 2025 - BuzzFeed
 

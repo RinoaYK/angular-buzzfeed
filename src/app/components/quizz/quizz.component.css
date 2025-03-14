@@ -28,6 +28,9 @@
 
 .quizz_questions h1 {
 	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
 }
 
 .quizz_options {
@@ -141,7 +144,7 @@
 		justify-content: center;
 	}
 	.btn-option {
-		height: 60px;
+		height: 100px;
 	}
 }
 
@@ -191,7 +194,7 @@
 
 @media (max-width: 730px) {
 	.btn-option {
-		height: 75px;
+		height: 120px;
 	}
 }
 
@@ -218,6 +221,9 @@
 	}
 }
 @media (max-width: 540px) {
+	.quizz_questions h1 {
+	font-size: 27px;
+	}
 	.quizz_logo h1 {
 		font-size: 2.2em;
 	}
